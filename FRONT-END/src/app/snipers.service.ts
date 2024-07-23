@@ -9,7 +9,9 @@ import { FormGroup } from "@angular/forms";
 })
 export class SniperService {
 
-  private baseURL = "http://localhost:8081/Snipers";
+  // private baseURL = "http://localhost:8081/Snipers";
+
+    private baseURL = "https://primesniper.onrender.com/Snipers";
 
   constructor(private httpClient: HttpClient) { }
 
